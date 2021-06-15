@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Text"
+        android:padding="12dp"
+        android:lines="4"
+        android:gravity="top|left"
+        android:background="@drawable/edittext1"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#FF9800"
+        android:textColor="@color/white"
+        android:text="update"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_update"/>
+</LinearLayout>
